@@ -6,4 +6,4 @@ authServer: http://localhost:8080
 TTL: 2
 refreshTTL: 1
 # 加密key,配置随机值
-jwtKey: 123
+jwtKey: https://lombok.ink

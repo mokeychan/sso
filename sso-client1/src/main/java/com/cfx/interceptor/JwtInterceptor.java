@@ -54,7 +54,6 @@ public class JwtInterceptor implements HandlerInterceptor {
             }
         } catch (Exception e) {
             log.info("token过期, 需要重新登录");
-            log.info(request.getRequestURI());
             response.sendRedirect(authAddress + "?redirect=" + request.getRequestURL());
             return false;
         }

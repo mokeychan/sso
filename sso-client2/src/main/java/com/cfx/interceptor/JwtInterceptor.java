@@ -36,6 +36,8 @@ public class JwtInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object o) throws Exception {
         String token = CookieUtil.getCookie(request, "token");
         String refreshToken = CookieUtil.getCookie(request, "refreshToken");
+        log.info("token is :" + token);
+        log.info("refreshToken is :" + refreshToken);
         try {
             JwtUtil.parseJWT(token);
             try {
@@ -52,7 +54,6 @@ public class JwtInterceptor implements HandlerInterceptor {
             }
         } catch (Exception e) {
             log.info("token过期, 需要重新登录");
-            log.info(request.getRequestURI());
             response.sendRedirect(authAddress + "?redirect=" + request.getRequestURL());
             return false;
         }

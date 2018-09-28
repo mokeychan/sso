@@ -8,8 +8,16 @@
 <script type="text/javascript">
     function login() {
         var password = document.getElementById("password").value;
-        var redirect = getQueryString("redirect");
-        window.location.href = "localhost:8080/login?redirect=" + redirect +"&password=" + password;
+        $.ajax({
+                type : "POST",
+                url : "http://localhost:8080/login",
+                data :{'password':password},
+                success : function(result){
+                    if ("ok" == result) {
+                        window.location.href = getQueryString("redirect");
+                    }
+                }
+        });
     }
 
     function getQueryString(name) {

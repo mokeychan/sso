@@ -30,6 +30,7 @@ dependencies {
     compile group: 'org.projectlombok', name: 'lombok', version: '1.16.18'
     compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.7.0'
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf'
     testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test'
 
 }
