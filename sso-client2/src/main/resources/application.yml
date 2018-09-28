@@ -1,0 +1,9 @@
+server:
+  port: 8082
+# 认证服务器位置
+authServer: http://localhost:8080
+# 单位为分钟
+TTL: 2
+refreshTTL: 1
+# 加密key,实现约定好
+jwtKey: https://lombok.ink

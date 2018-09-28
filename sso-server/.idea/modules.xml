@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sso-client1.iml" filepath="$PROJECT_DIR$/.idea/modules/sso-client1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sso-client1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sso-client1_main.iml" group="sso-client1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sso-client1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sso-client1_test.iml" group="sso-client1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sso-client2.iml" filepath="$PROJECT_DIR$/.idea/modules/sso-client2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sso-client2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sso-client2_main.iml" group="sso-client2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sso-client2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sso-client2_test.iml" group="sso-client2" />
+      <module fileurl="file://$PROJECT_DIR$/sso-server.iml" filepath="$PROJECT_DIR$/sso-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sso-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sso-server_main.iml" group="sso-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sso-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sso-server_test.iml" group="sso-server" />
+    </modules>
+  </component>
+</project>

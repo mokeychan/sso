@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+<script type="text/javascript">
+    function login() {
+        var password = document.getElementById("password").value;
+        var redirect = getQueryString("redirect");
+        window.location.href = "localhost:8080/login?redirect=" + redirect +"&password=" + password;
+    }
+
+    function getQueryString(name) {
+        var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) {
+            return unescape(r[2]);
+        }
+        return null;
+    }
+</script>
+
+<body>
+        <li>请输入用户名(略)与密码(123456)</li><br>
+        <input name="password" id="password" type="password"><br>
+        <input type="button" value="登录" onclick="login()">
+</body>
+</html>
