@@ -4,5 +4,5 @@ server:
 #单位为分钟
 TTL: 2
 refreshTTL: 1
-#加密key,实现约定好
+#加密key,事先约定好
 jwtKey: https://lombok.ink
