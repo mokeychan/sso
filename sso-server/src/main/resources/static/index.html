@@ -9,10 +9,10 @@
     function login() {
         var password = document.getElementById("password").value;
         $.ajax({
-                type : "POST",
-                url : "http://localhost:8080/login",
-                data :{'password':password},
-                success : function(result){
+                type: "POST",
+                url: "http://localhost:8080/login",
+                data: {'password':password},
+                success : function(result) {
                     if ("ok" == result) {
                         window.location.href = getQueryString("redirect");
                     } else {
