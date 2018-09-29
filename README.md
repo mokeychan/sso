@@ -8,7 +8,9 @@
 * 系统1（taobao）sso-client1
 * 系统2（tmall）sso-client2
 
-####简单的业务流程，图就不画了。
+JWT介绍：[JSON Web Token介绍--阮一峰](http://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html)
+
+#### 简单的业务流程
 用户（未登录）访问系统1->判断登录状态，重定向到认证服务器的登录系统，登录->生成jwt存入cookie->成功登录系统1(callback)->若在有效期中继续访问系统2，则不需要重复登录->完成sso.
 
 ### 运行方式
