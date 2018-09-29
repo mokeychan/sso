@@ -14,6 +14,8 @@ JWT介绍：[JSON Web Token介绍--阮一峰](http://www.ruanyifeng.com/blog/201
 用户（未登录）访问系统1->判断登录状态，重定向到认证服务器的登录系统，登录->生成jwt存入cookie->成功登录系统1(callback)->若在有效期中继续访问系统2，则不需要重复登录->完成sso.
 
 ### 运行方式
+
+![系统演示](http://p4ufy81u9.bkt.clouddn.com/sso.gif)
 * sso-server： `mvn spring-boot:run`
 * sso-client1：`mvn spring-boot:run`
 * sso-client2：`mvn spring-boot:run`
