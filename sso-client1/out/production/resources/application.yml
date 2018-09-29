@@ -5,5 +5,5 @@ authServer: http://localhost:8080
 # 单位为分钟
 TTL: 2
 refreshTTL: 1
-# 加密key,配置随机值
+# 加密key,事先约定好
 jwtKey: https://lombok.ink

@@ -1,6 +1,5 @@
 package com.cfx.util;
 
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.util.WebUtils;
 
 import javax.servlet.http.Cookie;
@@ -12,7 +11,6 @@ import javax.servlet.http.HttpServletResponse;
  * @Author: chenfeixiang
  * @Date: Created in 14:35 2018/9/28
  */
-@Slf4j
 public class CookieUtil {
 
     public static void addCookie(HttpServletResponse response, String name, String value) {
