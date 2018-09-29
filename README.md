@@ -1,8 +1,7 @@
 # SSO 单点登录
 ----
 
-利用JWT实现跨域的单点登录。相关介绍：![logoBLOGARCHIVEWEIBOGITHUBRSSABOUT
-给予JWT的单点登录](https://lombok.ink/2018/09/29/%E5%9F%BA%E4%BA%8EJWT%E7%9A%84%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/)
+利用JWT实现跨域的单点登录。相关介绍：[给予JWT的单点登录](https://lombok.ink/2018/09/29/%E5%9F%BA%E4%BA%8EJWT%E7%9A%84%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/)
 
 ### 介绍
 * 认证服务器sso-server
