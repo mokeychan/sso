@@ -45,6 +45,8 @@ public class LoginController {
             CookieUtil.addCookie(response, "refreshToken", refreshToken);
 
             response.getWriter().print("ok");
+        } else {
+            response.getWriter().print("error");
         }
     }
 }
