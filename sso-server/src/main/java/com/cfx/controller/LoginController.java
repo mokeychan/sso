@@ -41,6 +41,8 @@ public class LoginController {
             log.info("token is :" + token);
             log.info("refreshToken is :" + refreshToken);
 
+            // 也可以将认证信息存入Header之中
+
             CookieUtil.addCookie(response, "token", token);
             CookieUtil.addCookie(response, "refreshToken", refreshToken);
 
